@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Flambusard</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div>  
+    
+    <div> 
+        <img id="imagePokemon" src="../img/flambusard.jpg" alt="">
+        <img id="imagePokemon2" src="../img/flambusard_evo.webp" alt="">
+    </div>
+
+    <main>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>La troisième attaque devient boostée et inflige des dégâts plus importants.<br><br> Reste chargée même si vous quittez la zone de combat.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table class="bottom table" >
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ailes Bourrasques</td>
+                    <td><img src="../img/talent_flambusard.jpg" alt=""></td>
+                    <td>Augmente la vitesse de déplacement lorsque les HP sont élevés.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Picpic</td>
+                        <td><img src="../img/picpic.jpg" alt=""></td>
+                        <td>Se déplace vers la cible et l’attaque à trois reprises.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Nitrocharge <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/nitrocharge.jpg" alt=""></td>
+                        <td>S’entoure de flammes et vol dans la direction ciblée infligeant des dégâts aux ennemis sur la trajectoire.<br><br> Augmente également la vitesse de déplacement.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Aéropique <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/aeropique.jpg" alt=""></td>
+                        <td>Vol dans la direction ciblée et inflige des dégâts.<br><br> La prochaine Attaque de base est améliorée.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Acrobatie</td>
+                        <td><img src="../img/acrobatie.jpg" alt=""></td>
+                        <td>Vol dans la direction ciblée et inflige des dégâts.<br><br> La prochaine Attaque de base est améliorée.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+            
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: vol <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/vol.webp" alt=""></td>
+                        <td>S’envole dans les airs.<br><br> En activant à nouveau la Capacité, plonge dans la zone ciblée et attaque.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: Rapace <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/rapace.webp" alt=""></td>
+                        <td>Saute sur un adversaire en lui infligeant des dégâts en blessant également son lanceur.<br><br> En utilisant une Attaque de base boostée juste après, réduit le temps de rechargement de Nitrocharge et Aéropique à 0.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Vol Incandescent<br></br>Débloquage au niveau 9</td>
+                    <td><img src="../img/vol_incandescent.webp" alt=""></td>
+                    <td>Charge droit devant après avoir exécuté une figure aérienne, projette et inflige des dégâts au ennemis pris dedans.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

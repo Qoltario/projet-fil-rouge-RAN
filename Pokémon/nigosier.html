@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Nigosier</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div> 
+
+    <div> 
+        <img id="imagePokemon" src="../img/nigosier.jpg" alt="">
+        <img id="imagePokemon2" src="../img/nigosier3.png" alt="">
+    </div>
+
+    <main>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>Devient une attaque chargée tous les trois coups.<br><br> Le troisième coup envoie un Embrochet ou un autre Pokémon sur la cible, lui infligeant des dégâts.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table class="bottom table" >
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dégobage</td>
+                    <td><img src="../img/degobage.webp" alt=""></td>
+                    <td>Attrape une proie dans son bec après l’utilisation d’une Capacité.<br><br> Lorsque Nigosier reçoit des dégâts, la renvoie comme une contre-attaque.<br><br> Le type de proie et l’effet diffèrent selon les HP du lanceur.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Siphon</td>
+                        <td><img src="../img/siphon.webp" alt=""></td>
+                        <td>Forme un syphon qui inflige des dégâts aux ennemis pris dedans.<br><br> La zone rétrécit progressivement et inflige plus de dégâts.<br><br> Avant sa disparition ralentit les ennemis.<br><br> Nigosier peut également capturer une proie en passant dedans.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+       
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Surf <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/surf_nigosier.webp" alt=""></td>
+                        <td>Envoie vague qui inflige des dégâts.<br><br> Une fois arrivée à sa portée maximale, inflige de nouveau des dégâts et repousse les ennemis vers sa trajectoire initiale.<br><br> Nigosier peut également attraper une proie en passant dedans.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Plongée <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/plongee.webp" alt=""></td>
+                        <td>Forme une flaque permettant de plonger pour infliger des dégâts et faire reculer les ennemis.<br><br> Peut également capturer une proie. Utilisable jusqu’à 3 fois.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Danse Plumes</td>
+                        <td><img src="../img/danse_plumes.webp" alt=""></td>
+                        <td>Diminue l’Attaque et ralentit les ennemis.</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+        
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 4: Vent Violent <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/vent_violent.webp" alt=""></td>
+                        <td>Crée un vent féroce repoussant les ennemis et infligeant des dégâts lorsqu’ils retombent au sol.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 4: Lame d'Air <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/lame_dair.webp" alt=""></td>
+                        <td>Envoie des lames qui infligent des dégâts et permet de se replacer.<br><br> Une touche réduit le temps de rechargement.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tir de Barrage<br></br>Débloquage au niveau 9</td>
+                    <td><img src="../img/tir_de_barrage.webp" alt=""></td>
+                    <td>Forme une flaque depuis laquelle Nigosier attrape des proies pour ensuite les tirer sur ses ennemis.<br><br> Le lanceur est immobile et ne peut pas utiliser d’autres Capacités pendant la durée de celle-ci.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

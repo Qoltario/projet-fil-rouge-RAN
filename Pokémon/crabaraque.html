@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Crabaraque</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div>  
+    
+    <div> 
+        <img id="imagePokemon" src="../img/crabaraque.png" alt="">
+        <img id="imagePokemon2" src="../img/crabaraque_evo.webp" alt="">
+    </div>
+    <main>
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>La troisième Attaque de base inflige des dégâts en zone et ralentit les ennemis touchés.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="bottom table" >
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fermeté</td>
+                    <td><img src="../img/talent_crabaraque.webp" alt=""></td>
+                    <td>Octroie un bonus de Défense et de Défense Spéciale quand ce Pokémon subit des dégâts.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Eboulement</td>
+                        <td><img src="../img/eboulement.webp" alt=""></td>
+                        <td>Fait tomber des pierres dans la zone ciblée, infligeant des dégâts et immobilisant les ennemis.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 4: Tomberoche <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/tomberoche.webp" alt=""></td>
+                        <td>Crée une barrière rocheuses dans la zone ciblée, infligeant des dégâts et créant un obstacle.<br><br> Réactiver cette capacité permet de détruire le mur.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 4: Exuviation <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/exuviation.webp" alt=""></td>
+                        <td>Augmente considérablement la vitesse de déplacement et convertit une partie de la Défense et de la Défense Spéciale en Attaque et en Attaque Spéciale.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Taillade</td>
+                        <td><img src="../img/taillade.webp" alt=""></td>
+                        <td>Réalise un coup de pince en ligne qui inflige des dégâts aux ennemis touchés.<br><br> Réutiliser cette capacité sur le même ennemi inflige des dégâts supplémentaires.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+        
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Piège de roc <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/piege_de_roc.webp" alt=""></td>
+                        <td>Lance de nombreux petits rochers dans la zone ciblés, créant une zone persistante qui inflige des dégâts sur la durée.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Plaie croix <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/plaie_croix.webp" alt=""></td>
+                        <td>Frappe avec ses pinces 3 fois de suite, en chargeant vers l’avant et en repoussant les ennemis touchés.<br><br> Les ennemis poussés contre un obstacle sont immobilisés.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tourbillon Protecteur<br></br>Débloquage au niveau 9</td>
+                    <td><img src="../img/tourbillon_protecteur.webp" alt=""></td>
+                    <td>Gagne un énorme bouclier et immobilise tous les ennemis à proximité.<br><br> Pendant toute la durée de la capacité, les ennemis subissent des dégâts constants.<br><br> Quand Crabaraque reçoit des coups, cette capacité inflige à nouveau des dégâts autour de lui.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

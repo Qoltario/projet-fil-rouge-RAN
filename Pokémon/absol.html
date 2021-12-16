@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Absol</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div> 
+    
+    <div> 
+        <img id="imagePokemon" src="../img/absol.jpg" alt="">
+        <img id="imagePokemon2" src="../img/absol3.png" alt="">
+    </div>
+
+    <main>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>La troisième attaque est renforcée et baisse la Défense Spéciale des ennemis.<br><br> Si l’attaque renforcée touche une seule cible, les dégâts sont renforcés.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table class="bottom table" >
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chanceux</td>
+                    <td><img src="../img/talent_absol.jpg" alt=""></td>
+                    <td>Augmente le taux de critique du Pokémon.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Feinte</td>
+                        <td><img src="../img/feinte.jpg" alt=""></td>
+                        <td>Bondit en arc de cercle, infligeant des dégâts.<br><br> Ignore la Défense et les effets de bouclier des Pokémon touchés.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Tranche-Nuit <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/tranche_nuit.jpg" alt=""></td>
+                        <td>Première utilisation: Attaque en arc de cercle inversé et baisse la vitesse de déplacement des Pokémon touchés.<br><br> Seconde utilisation: Augmente le taux de critique et bondit à l’emplacement ciblé tout en infligeant des dégâts.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Poursuite <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/poursuite.jpg" alt=""></td>
+                        <td>Le lanceur saute à l’endroit désigné et attaque rapidement  la cible avec une Attaque de base.<br><br> Si l’ennemi est touché dans le dos, les dégâts sont augmentés et le délai de récupération réduit.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tranche</td>
+                        <td><img src="../img/tranche.jpg" alt=""></td>
+                        <td>Tranche l’adversaire d’un coup de griffes aiguisées et augmente le taux de critique.</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+        <div class="arrows">
+            <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+            <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+        </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: Coupe-Psycho <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/coupe_psycho.jpg" alt=""></td>
+                        <td>Inflige d’important dégâts, baisse la vitesse de déplacement de l’adversaire et augmente la puissance des 3 prochaines attaques de base.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: Coup Bas <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/coup_bas.webp" alt=""></td>
+                        <td>Attaque continuellement un Pokémon tout en ralentissant la cible et Absol.<br><br> Si le lanceur subit des dégâts pendant la capacité, il charge et projette dans les airs sa cible.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Entailles Sombres   <br></br>Débloquage au niveau 9</td>
+                    <td><img src="../img/entailles_sombres.webp" alt=""></td>
+                    <td>Déchaîne une série de coups devant Absol avant de terminer par une puissante lame d’énergie infligeant des dégâts augmentés et projetant les ennemis dans les airs.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Dracaufeu</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div> 
+    
+    <div> 
+        <img id="imagePokemon" src="../img/dracaufeu.jpg" alt="">
+        <img id="imagePokemon2" src="../img/dracaufeu_evo.webp" alt="">
+    </div>
+
+    <main>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>Inflige des dégâts continus. Après chaque évolution, la portée de l’Attaque de base augmente.<br><br> Si l’ennemi brûle, les dégâts infligés sont augmentés.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table class="bottom table" >
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Brasier</td>
+                    <td><img src="../img/talent_dracaufeu.webp" alt=""></td>
+                    <td>Quand le Pokémon a 50% de ses PV ou moins, ses chances d’infliger un coup critique sont augmentées.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rebondifeu</td>
+                        <td><img src="../img/rebondifeu.webp" alt=""></td>
+                        <td>Projette une boule de feu qui brûle l’ennemi.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+       
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Poing feu <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/poing_feu.webp" alt=""></td>
+                        <td>Se projette dans une direction en exécutant un puissant coup de poing enflammé.<br><br>s Les dégâts sont augmentés contre les cibles brûlées.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Lance-Flammes <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/lance_flammes.webp" alt=""></td>
+                        <td>Souffle des flammes, brûlant l’ennemi.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Danse Flammes</td>
+                        <td><img src="../img/danse_flammes.webp" alt=""></td>
+                        <td>Crée un vortex enflammé dans la zone ciblée, infligeant des dégâts aux ennemis et réduisant leur vitesse de déplacement pendant un court laps de temps.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+    
+        
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: Déflagration <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/deflagration.webp" alt=""></td>
+                        <td>Crée une large zone enflammée au sol.<br><br> La zone persiste, infligeant des dégâts, brûlant et réduisant la vitesse de déplacement des ennemis qui s’y trouvent.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: Boutefeu <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/boutefeu.webp" alt=""></td>
+                        <td>	Fonce sur une cible, la projetant en arrière tout en conférant un bouclier à l’utilisateur.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Atterissage Brutal<br></br>Débloquage au niveau 9</td>
+                    <td><img src="../img/atterissage_brutal.webp" alt=""></td>
+                    <td>Saisit un ennemi avant de l’emmener dans les airs puis de l’écraser violemment au sol, infligeant des lourds dégâts.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

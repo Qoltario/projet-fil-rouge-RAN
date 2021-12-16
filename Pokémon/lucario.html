@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Lucario</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div> 
+    
+    <div> 
+        <img id="imagePokemon" src="../img/lucario.png" alt="">
+        <img id="imagePokemon2" src="../img/lucario3.png" alt="">
+    </div>
+
+    <main>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>La troisième attaque devient boostée et inflige des dégâts plus importants.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table class="bottom table" >
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Impassible</td>
+                    <td><img src="../img/talent_lucario.webp" alt=""></td>
+                    <td>Quand les PV du Pokémon sont bas, il est protégé par un bouclier et sa vitesse de déplacement est augmentée.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Vive Attaque</td>
+                        <td><img src="../img/vive_attaque.webp" alt=""></td>
+                        <td>Le Pokémon bondit en avant à une vitesse qui le rend presque invisible et inflige des dégâts aux adversaires lorsqu’ils sont touchés.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Vitesse-Extrême <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/vitesse_extreme.webp" alt=""></td>
+                        <td>Se précipite sur l’adversaire et l’attaque.<br><br> Si cette capacité est utilisée au corps à corps, son délai de récupération est réinitialisé et il récupère des PV.
+                            <br><br>Le délai de récupération ne peut pas être réinitialisé plusieurs fois consécutives sur le même ennemi.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Poing Boost <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/poing_boost.webp" alt=""></td>
+                        <td>Charge son énergie avant de déclencher une attaque puissante, infligeant des dégâts et repoussant les adversaires.<br><br> La prochaine Attaque de base sera boostée.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Poing Meteore</td>
+                        <td><img src="../img/poing_meteore.webp" alt=""></td>
+                        <td>Envoie un coup de poing infligeant des dégâts et repoussant les adversaires.</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+        
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: Close Combat <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/close_combat_lucario.webp" alt=""></td>
+                        <td>Enchaîne des combos d’attaques, infligeant des dégâts aux adversaires en les repoussant dans les airs.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: Charge Os <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/charge_os.webp" alt=""></td>
+                        <td>Effectue des attaques à l’aide d’un os, infligeant plusieurs coups et étourdissant les adversaires pendant une courte période.<br><br> L’attaque finale envoie l’os en l’air.<br><br> Si le joueur veut l’utiliser à nouveau, il sera directement dirigé vers l’emplacement de l’os.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sphère Suprême<br></br>Débloquage au niveau 9</td>
+                    <td><img src="../img/sphere_supreme.webp" alt=""></td>
+                    <td>Projette une énorme boule d’énergie qui inflige des dégâts en zone à très longue portée.
+                        <br><br>Les dégâts du prochain Poing Boost (Power-Up Punch) sont augmentés.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

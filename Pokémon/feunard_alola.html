@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Feunard d'alola</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div> 
+    
+    <div> 
+        <img id="imagePokemon" src="../img/feunard_alola.jpg" alt="">
+        <img id="imagePokemon2" src="../img/feunard_alola_evo.jpg" alt="">
+    </div>
+
+    <main>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>La troisième Attaque de base inflige des dégâts supplémentaires en zone et ralentit les Pokémon ennemis touchés.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table class="bottom table" >
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alerte Neige</td>
+                    <td><img src="../img/alerte_neige.webp" alt=""></td>
+                    <td>Les Attaques de base améliorées et les capacités font tomber de la neige sur les Pokémon ennemis.<br><br> La neige inflige des dégâts supplémentaires et ralentit.<br><br> Si une cible est touchée par de la neige à plusieurs reprises, elle sera gelée.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Poudreuse</td>
+                        <td><img src="../img/poudreuse" alt=""></td>
+                        <td>Projette un cône d’air glacé, infligeant des dégâts et ralentissant les Pokémon dans la zone d’effet.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        <div class="arrows">
+            <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+            <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+        </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 4: Avalanche <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/avalanche.webp" alt=""></td>
+                        <td>Projette un souffle d’air glacé dans la direction ciblé.<br><br> Une barrière de glace est créée dans la zone et bloque les déplacements.<br><br> Après un court délai, le mur s’effondre en infligeant des dégâts de zone.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 4: Eclat Magique <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/eclat_magique_feunard.webp" alt=""></td>
+                        <td>Attaque avec un puissant cône lumineux infligeant des dégâts et immobilisant les ennemis.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Vent Glacé</td>
+                        <td><img src="../img/vent_glace.webp" alt=""></td>
+                        <td>Projette un courant d’air gelé qui inflige des dégâts en ligne et ralentit les ennemis.</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Blizzard <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/blizzard.webp" alt=""></td>
+                        <td>Lance deux vagues de Blizzard qui infligent des dégâts.<br><br> La première ralentit et la seconde repousse les ennemis touchés.<br><br> Si la seconde vague touche un obstacle, des dégâts supplémentaires sont infligés près du point d’impact.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Voile Aurore <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/voile_aurore.webp" alt=""></td>
+                        <td>Crée une aurore autour de l’utilisateur.<br><br> Cette dernière réduit les dégâts subis par le lanceur et ses alliés.<br><br> Tant que le lanceur est dans la zone, il se déplace plus vite et ses Attaques de base sont améliorées.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nova Glacée<br></br>Débloquage au niveau 9</td>
+                    <td><img src="../img/nova_glacee.webp" alt=""></td>
+                    <td>Génère une grande zone glacée autour du lanceur qui inflige des dégâts.<br><br> Les ennemis gelés subissent encore plus de dégâts.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

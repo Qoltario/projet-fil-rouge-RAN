@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Rongrigou</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div>   
+    
+    <div> 
+        <img id="imagePokemon" src="../img/rongrigou.png" alt="">
+        <img id="imagePokemon2" src="../img/rongrigou_evo.jpg" alt="">
+    </div>
+    <main>
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>La troisième attaque de base est renforcée, infligeant des dégâts supplémentaires et augmentant la vitesse de déplacement du lanceur.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="bottom table" >
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bajoues</td>
+                    <td><img src="../img/talent_rongrigou.jpg" alt=""></td>
+                    <td>Lorsque ce Pokémon mange une baie, ses PV sont régénérés après que l’effet de la Baie a été appliqué.<br><br> En même temps, il stocke discrètement une Baie supplémentaire dans sa queue.<br><br> À chaque fois qu’il est touché par une attaque ou plusieurs attaques successives, il fait tomber l’une des Baies stockées dans sa queue après un certain temps.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Charge</td>
+                        <td><img src="../img/charge.jpg" alt=""></td>
+                        <td>Le lanceur attaque en sautant à l’endroit indiqué. Les Pokémon adverses dans la zone d’effet subissent des dégâts et leur vitesse de déplacement est réduite pendant une courte durée.<br><br> À ce moment, si sa queue contient des Baies, elles sont toutes consommées. Plus le nombre de Baies consommées est élevé, plus le délai de récupération de cette capacité est réduit.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: Balle Graine <br><br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/balle_graine.jpg" alt=""></td>
+                        <td>Le lanceur projette une salve de baies dans la direction ciblée.<br><br> Les Pokémon adverses dans la zone d’effet subissent des dégâts et leur vitesse de déplacement est réduite pendant une courte durée.<br><br>Plus le lanceur a amassé de Baies, plus les dégâts infligés sont élevés.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: Eructation <br><br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/eructation.jpg" alt=""></td>
+                        <td>Le lanceur inflige des dégâts aux Pokémon adverses dans une zone en cône, et réduit leur vitesse de déplacement pendant une courte durée.<br><br>Si la queue du lanceur contient des Baies, elles sont toutes consommées.<br><br> Plus le nombre de Baies consommées est élevé, plus le délai de récupération de cette capacité est réduit.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Boul’Armure</td>
+                        <td><img src="../img/boul_armure.jpg" alt=""></td>
+                        <td>Le lanceur reçoit un bouclier pendant une courte durée. De plus, une Baie apparait devant lui.</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Garde-à-Joues <br><br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/garde_joues.jpg" alt=""></td>
+                        <td>Le lanceur fait tomber des Baies et les mange pour récupérer des PV.
+                            <br><br>Les PV soignés qui excèdent les PV max sont convertis en bouclier.<br><br> Durant l’utilisation de cette capacité, si le lanceur aperçoit une Baie, sa vitesse de déplacement augmente pendant une courte durée.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Implore <br><br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/implore.jpg" alt=""></td>
+                        <td>Le lanceur se met à courir, infligeant des dégâts aux Pokémon adverses qu’il touche et les projetant dans les airs.<br><br> Pendant sa course, il peut utiliser Éructation et Balle Graine, et il fait tomber des Baies.<br><br> S’il les mange, sa vitesse de déplacement augmente pendant une courte durée. Plus il en mange, plus cette stat est augmentée.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Plongeon Glouton<br><br>Débloquage au niveau 9</td>
+                    <td><img src="../img/plongeon_glouton.jpg" alt=""></td>
+                    <td>Le lanceur mange des Baies pour récupérer des PV, puis saute dans la zone indiquée, infligeant des dégâts aux Pokémon adverses dans la zone d’effet et les projetant dans les airs.<br><br> Ensuite, il mange une Baie spéciale.<br><br> Il obtient alors un nombre illimité de Baies pendant une courte durée et le délai de récupération de toutes ses capacités est immédiatement réinitialisé.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

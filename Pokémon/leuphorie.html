@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Leuphorie</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div>  
+    
+    <div> 
+        <img id="imagePokemon" src="../img/leuphorie.jpg" alt="">
+        <img id="imagePokemon2" src="../img/leuphorie_evo.jpg" alt="">
+    </div>
+
+    <main>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>Après un certain délai, la prochaine attaque de base devient améliorée, infligeant des dégâts supplémentaires.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Médic Nature</td>
+                    <td><img src="../img/medic_nature.webp" alt=""></td>
+                    <td>Retire toutes les altérations de statut du Pokémon.<br><br> Une fois déclenchée, cette capacité a un délai de récupération.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ecras'Face</td>
+                        <td><img src="../img/ecras_face.webp" alt=""></td>
+                        <td>Frappe dans la direction ciblée, infligeant des dégâts et ralentissant les Pokémon en zone.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Bombe Oeuf <br></br>Amélioration au niveau 10 </td>
+                        <td><img src="../img/bombe_oeuf.webp" alt=""></td>
+                        <td>Projette un oeuf qui explose dans la zone ciblée, infligeant des dégâts et projetant les Pokémon touchés.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Coup d'Main <br></br>Amélioration au niveau 10 </td>
+                        <td><img src="../img/coup_dmain.webp" alt=""></td>
+                        <td>Augmente grandement la vitesse de déplacement du lanceur et des Pokémon alliés proches.<br><br> Pendant toute la durée des sorts, les attaques du lanceur sont améliorées.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Vibra Soin</td>
+                        <td><img src="../img/vibra_soin.webp" alt=""></td>
+                        <td>Restaure continuellement les PV du lanceur et du Pokémon allié ciblé.</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 4: E-Coque <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/e_coque.webp" alt=""></td>
+                        <td>Lance un oeuf à un Pokémon allié, restaurant ses PV ainsi que ceux du lanceur.<br><br> Jusqu’à 3 œufs peuvent être stockés pour lancer cette capacité.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 4: Rune Protect <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/rune_protect.webp" alt=""></td>
+                        <td>Retire toutes les altérations de statut du Pokémon allié ciblé et le rend immunisé aux contrôles pour une courte durée.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bliss Assistance <br></br>Débloquage au niveau 9</td>
+                    <td><img src="../img/bliss_assistance.webp" alt=""></td>
+                    <td>Charge jusqu’au Pokémon allié ciblé pour lui donner un oeuf, renversant tous les ennemis sur sa route.<br><br> L’allié gagne un bouclier, de l’Attaque et de l’Attaque spéciale.<br><br> De plus, le lanceur intercepte une partie des dégâts reçus par le Pokémon allié</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Nymphali</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div> 
+    
+    <div> 
+        <img id="imagePokemon" src="../img/nymphali.jpg" alt="">
+        <img id="imagePokemon2" src="../img/nymphali_evo.jpg" alt="">
+    </div>
+
+    <main>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>Evoli : La troisième attaque de base est renforcée, infligeant des dégâts supplémentaires.
+                        <br><br>Nymphali : La troisième attaque de base est renforcée, infligeant des dégâts supplémentaires et augmentant la vitesse de déplacement du lanceur.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table class="bottom table" >
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adaptabilité / Peau Féérique</td>
+                    <td><img src="../img/talent_nymphali.webp" alt=""></td>
+                    <td>Evoli commence la partie avec le talent Adaptabilité: À chaque fois que le Pokémon inflige ou subit des dégâts, son Attaque Spéciale augmente pour une courte durée.<br><br>
+                        Lorsqu’il évolue en Nymphali, son talent devient Peau Féérique: À chaque fois que le Pokémon inflige ou subit des dégâts, son Attaque Spéciale et sa Défense Spéciale augmentent pour une courte durée.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Météores</td>
+                        <td><img src="../img/meteores.webp" alt=""></td>
+                        <td>Projette 4 étoiles qui infligent des dégâts aux Pokémon ennemis.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 4: Mégaphone <br></br>Amélioration au niveau 10 </td>
+                        <td><img src="../img/megaphone.webp" alt=""></td>
+                        <td>Déchaîne plusieurs vagues sonores en cône.<br><br> Les dégâts infligés augmentent avec la distance parcourue par les ondes.<br><br> À chaque fois qu’une onde touche, la suivante inflige des dégâts supplémentaires.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 4: Feu Ensorcelé <br></br>Amélioration au niveau 10 </td>
+                        <td><img src="../img/feu_ensorcele.webp" alt=""></td>
+                        <td>Le lanceur bondit dans la direction ciblée et s’entoure de 4 petites flammes.<br><br> Ces dernières vont ensuite s’écraser une à une sur les ennemis proches, infligeant des dégâts et baissant leur Attaque Spéciale.
+                            <br><br>Chaque flamme qui touche un ennemi réduit le délai de récupération de cette capacité.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Regard Touchant</td>
+                        <td><img src="../img/regard_touchant.webp" alt=""></td>
+                        <td>Tire un projectile qui inflige des dégâts et réduit l’attaque et la vitesse de déplacement des ennemis touchés.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Vampibaiser <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/vampibaiser.webp" alt=""></td>
+                        <td>Envoie un bisou sur un Pokémon ennemi.<br><br> Le bisou inflige des dégâts et ralentit la cible puis revient vers le lanceur pour le soigner, faisant ainsi jusqu’à 3 allers-retours.
+                            <br><br>L’effet du sort prend immédiatement fin si le lanceur et la cible s’éloignent trop l’un de l’autre.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Plénitude <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/plenitude.webp" alt=""></td>
+                        <td>Augmente l’Attaque Spéciale, la Défense Spéciale et la Vitesse de déplacement du lanceur.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Don Féerique<br></br>Débloquage au niveau 9</td>
+                    <td><img src="../img/don_feerique.webp" alt=""></td>
+                    <td>Le lanceur bondit dans les airs, devenant brièvement invincible.<br><br> En retombant, il inflige des dégâts autour de lui et récupère des PV.
+                        <br><br>Pendant 9 secondes, il récupère sous forme de PV une partie des dégâts qu’il inflige.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Ectoplasma</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div> 
+    
+    <div> 
+        <img id="imagePokemon" src="../img/ectoplasma.jpg" alt="">
+        <img id="imagePokemon2" src="../img/ectoplasma_evo.webp" alt="">
+    </div>
+
+    <main>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>Toutes les trois Attaques de base, cette dernière est boostée et inflige des dégâts augmentés.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lévitation</td>
+                    <td><img src="../img/levitation.webp" alt=""></td>
+                    <td>Augmente la vitesse de déplacement en dehors des combats.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Feu Follet</td>
+                        <td><img src="../img/feu_follet.webp" alt=""></td>
+                        <td>Tire trois flammes spectrale qui infligent des dégâts et brûlent les ennemis.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+       
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Ball'Ombre <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/ball_ombre.webp" alt=""></td>
+                        <td>Lance une Ball’Ombre qui inflige des dégâts, ralentit les ennemis et baisse leur Défense Spéciale.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Bomb Beurk <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/bomb_beurk.webp" alt=""></td>
+                        <td>Un jet de boue toxique qui inflige des dégâts et empoisonne les ennemis touchés.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Léchouille</td>
+                        <td><img src="../img/lechouille.webp" alt=""></td>
+                        <td>Ectoplasma projette sa langue pour attirer les ennemis touchés près de lui.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+        
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: Dêvorêve <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/devoreve.webp" alt=""></td>
+                        <td>Première utilisation : projette un cauchemar qui endort les ennemis touchés.
+                            <br><br>Seconde utilisation : Ectoplasma se téléporte derrière un ennemi touché, lui inflige des dégâts et se soigne du même montant.<br><br> La seconde utilisation réduit également le délai de récupération de Ball’Ombre/Bombe Beurk.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: Châtiment <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/chatiment.webp" alt=""></td>
+                        <td>Disparaît avant de réapparaître à l’endroit ciblé et infligeant des dégâts aux ennemis présents.<br><br> Si l’ennemi est empoisonné, inflige davantage de dégâts et réduit le temps de rechargement de cette capacité.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Assaut Invisible <br></br>Débloquage au niveau 9</td>
+                    <td><img src="../img/assaut_invisible.webp" alt=""></td>
+                    <td>Première utilisation : Téléporte Ectoplasma à l’endroit ciblé, le rend invisible et augmente sa vitesse de déplacement.
+                        <br><br>Deuxième utilisation : Inflige des dégâts à tous les ennemis autour d’Ectoplasma et les ralentit.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

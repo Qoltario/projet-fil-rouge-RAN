@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>mammochon</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div>  
+    
+    <div> 
+        <img id="imagePokemon" src="../img/mammochon.png" alt="">
+        <img id="imagePokemon2" src="../img/mammochon_evo.jpg" alt="">
+    </div>
+
+    <main>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>La troisième Attaque de base est renforcée.<br><br> Elle inflige des dégâts aux Pokémon adverses et les gèle pendant une courte durée.<br><br> De plus, quand le lanceur gèle un Pokémon adverse avec une de ses capacités, ses attaques de base lui infligent plus de dégâts pendant une courte durée.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table class="bottom table" >
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Isograisse</td>
+                    <td><img src="../img/talent_mammochon.webp" alt=""></td>
+                    <td>Quand le lanceur inflige des dégâts, sa Défense et sa Défense Spéciale augmentent pendant une courte durée (jusqu’à 3 fois).<br><br> Quand il utilise Éclats Glace, Chute Glace ou Crocs Givre, sa prochaine attaque de base est renforcée.<br><br> De plus, quand ces capacités créent une zone de gel sur un objectif allié, les Pokémon adverses marquent moins rapidement sur cet objectif.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Eclats Glace</td>
+                        <td><img src="../img/eclats_glace.webp" alt=""></td>
+                        <td>Envoie 3 éclats de glace à l’endroit indiqué.<br><br> Il inflige des dégâts aux Pokémon adverses dans la zone d’effet et réduit leur vitesse de déplacement.<br><br> Si un Pokémon adverse est touché par les 3 éclats, il est gelé.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+       
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Chute Glace <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/chute_glace.webp" alt=""></td>
+                        <td>Fait tomber des stalactites à l’endroit indiqué, infligeant des dégâts aux Pokémon adverses  et réduisant leur vitesse de déplacement.<br><br> La dernière stalactite éclate après un délai ou quand le lanceur la touche avec une capacité ou une attaque renforcée.<br><br> Les Pokémon autour de la stalactite subissent des dégâts supplémentaires.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Crocs Givre <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/crocs_givre.webp" alt=""></td>
+                        <td>Utilise ses défenses glacées et projette en l’air le Pokémon adverse le plus proche, lui infligeant des dégâts et le gelant.<br><br> Il l’écrase ensuite au sol dans la direction sélectionnée.<br><br> Les Pokémon autour de la zone d’impact subissent des dégâts et son gelés.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Charge</td>
+                        <td><img src="../img/charge_mammochon.webp" alt=""></td>
+                        <td>Charge dans la direction indiquée, infligeant des dégâts aux Pokémon adverses et les projetant dans les airs.</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+        
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 8: Cavalerie Lourde <br></br>Amélioration au niveau 14</td>
+                        <td><img src="../img/cavalerie_lourde.webp" alt=""></td>
+                        <td>Charge dans la direction indiquée, infligeant des dégâts aux Pokémon adverses et les repoussant.<br><br> Il piétine ensuite le sol, infligeant des dégâts en zone et étourdissant les Pokémon touchés.<br><br> Les Pokémon gelés subissent davantage de dégâts du piétinement.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 8: Séisme <br></br>Amélioration au niveau 14 </td>
+                        <td><img src="../img/seisme.webp" alt=""></td>
+                        <td>Saut dans les airs dans la direction indiquée et retombe brutalement au sol, infligeant des dégâts et attirant les Pokémon touchés.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Piétinement Massis<br></br>Débloquage au niveau 10</td>
+                    <td><img src="../img/pietinement_massif.webp" alt=""></td>
+                    <td>Devient insensible aux contrôle de foule et bondit à l’endroit indiqué.<br><br> Le lanceur s’écrase au sol 4 fois, infligeant des dégâts et ralentissant les ennemis à chaque impact.<br><br> Le dernier tremblement projette les ennemis dans les airs.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

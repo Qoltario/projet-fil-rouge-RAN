@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Amphinobi</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div>  
+    
+    <div> 
+        <img id="imagePokemon" src="../img/amphinobi.jpg" alt="">
+        <img id="imagePokemon2" src="../img/amphinobi_evo.jpg" alt="">
+    </div>
+
+    <main>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>La troisième attaque inflige des dégâts supplémentaires.<br><br> Toucher à distance augmente les dégâts et ralentit la vitesse de déplacement de la cible.<br><br> Au contact, les dégâts sont basés sur les PV maximum de la cible.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table class="bottom table" >
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Torrent</td>
+                    <td><img src="../img/torrent.webp" alt=""></td>
+                    <td>Lorsque les HP de ce Pokémon passent sous les 50%, ses dégâts et sa vitesse de déplacement augmentent.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ecume</td>
+                        <td><img src="../img/ecume.webp" alt=""></td>
+                        <td>Projette des bulles qui infligent des dégâts et diminuent la vitesse de déplacement de l’ennemi.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: Sheauriken <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/sheauriken.webp" alt=""></td>
+                        <td>Envoie plusieurs shurikens d’eau.<br><br> Augmente la vitesse de déplacement du lanceur et restaure des PV pour chaque shuriken touché.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 7: Surf <br></br>Amélioration au niveau 11 </td>
+                        <td><img src="../img/surf_amphinobi.webp" alt=""></td>
+                        <td>Se projette dans une direction sur une vague infligeant des dégâts aux Pokémon touchés et restaurant les PV de l’utilisateur.<br><br> Tuer un Pokémon ennemi réinitialise cette capacité.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Clonage</td>
+                        <td><img src="../img/clonage.webp" alt=""></td>
+                        <td>Se projette vers l’avant en laissant un clone derrière lui.</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Reflet <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/reflet.webp" alt=""></td>
+                        <td>Replace rapidement le lanceur loin de sa position actuelle, laissant des illusions pour l’aider au combat.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 5: Brouillard <br></br>Amélioration au niveau 13 </td>
+                        <td><img src="../img/brouillard.webp" alt=""></td>
+                        <td>Bondit dans une direction et dégage un nuage de fumée.<br><br> Amphinobi devient invisible à l’intérieur.<br><br> La prochaine Attaque de base est renforcée.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sheauriken Géant<br></br>Débloquage au niveau 9</td>
+                    <td><img src="../img/sheauriken_geant.webp" alt=""></td>
+                    <td>Le lanceur saute dans la zone désignée avant d’attaquer les Pokémon adverses avec un shuriken d’eau géant.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

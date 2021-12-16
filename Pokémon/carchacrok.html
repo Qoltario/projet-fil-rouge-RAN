@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Carchacrok</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div>  
+    
+    <div> 
+        <img id="imagePokemon" src="../img/carchacrok.jpg" alt="">
+        <img id="imagePokemon2" src="../img/carchacrok_evo.png" alt="">
+    </div>
+
+    <main>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>La 5e Attaque de base est améliorée, restaure des HP et inflige des dégâts augmentés.<br><br> A chaque attaque ou Capacité qui touche, sa vitesse d’attaque est augmentée.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table class="bottom table" >
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Peau Dure</td>
+                    <td><img src="../img/talent_carchacrok.webp" alt=""></td>
+                    <td>Renvoie une partie des dégâts reçus au corps à corps</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jet de Sable</td>
+                        <td><img src="../img/jet_de_sable.webp" alt=""></td>
+                        <td>Lance du sable réduisant le champ de vision de l’ennemi et augmentant la vitesse de déplacement et la vitesse des Attaque de base du lanceur.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Draco Charge <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/draco_charge.webp" alt=""></td>
+                        <td>Se lance dans la direction ciblée et inflige des dégâts aux ennemis touchés tout en les projetant en arrière.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Tunnel <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/tunnel.webp" alt=""></td>
+                        <td>S’enterre dans le sol ; proche d’un ennemi, l’attaque inflige des dégâts de zone et projette l’adversaire.<br><br> Si Séisme est en cours, craquelle le sol et étend la zone de dégâts.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Piétisol</td>
+                        <td><img src="../img/pietisol.webp" alt=""></td>
+                        <td>Frappe le sol après un premier saut et inflige des dégâts aux ennemis pris dedans.</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+        
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 8: Séisme <br></br>Amélioration au niveau 14 </td>
+                        <td><img src="../img/seisme_carchacrok.webp" alt=""></td>
+                        <td>Frappe le sol après un premier saut et inflige des dégâts aux ennemis pris dedans.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 8: Dracogriffe <br></br>Amélioration au niveau 14 </td>
+                        <td><img src="../img/dracogriffe.webp" alt=""></td>
+                        <td>S’élance avant d’attaquer à deux reprises, le premier coup projette d’abord l’ennemi, le second inflige des dégâts augmentés et augmente la vitesse d’attaque.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rage Déchainée<br></br>Débloquage au niveau 9</td>
+                    <td><img src="../img/rage_dechainee.webp" alt=""></td>
+                    <td>S’élance sur sa cible avant de déchaîner plusieurs coups avant la projeter et l’étourdir un moment.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

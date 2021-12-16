@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <title>Grodoudou</title>
+</head>
+<body>
+    <div id="header" class="flex_header">
+        <div id="header__menu">
+            <a href="../index.html" class="header__menu-link">Accueil</a>
+            <a href="../Pokémon/pokemon.html" class="header__menu-link">Pokémon</a>
+            <a href="../Objets/objets.html" class="header__menu-link">Objets</a>
+            <a href="../Terrains/terrains.html" class="header__menu-link">Terrains</a>
+        </div>   
+    </div>  
+    
+    <div> 
+        <img id="imagePokemon" src="../img/grodoudou.jpg" alt="">
+        <img id="imagePokemon2" src="../img/grodoudou_evo.webp" alt="">
+    </div>
+
+    <main>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attaque de base</td>
+                    <td><img src="../img/attaque.png" alt=""></td>
+                    <td>La troisième Attaque de base inflige des dégâts supplémentaire et le fait virevolter.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <table class="bottom table">
+            <thead>
+                <tr>
+                    <th>Talent</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Joli Sourire</td>
+                    <td><img src="../img/joli_sourire.webp" alt=""></td>
+                    <td>Les ennemis qui attaquent Grodoudou au corps à corps tombent amoureux et sont attirés vers Grodoudou contre leur volonté.<br><br> Cet effet a un délai de récupération pour chaque Pokémon ennemi.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 1</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ecras'Face</td>
+                        <td><img src="../img/ecras_face_grodoudou.webp" alt=""></td>
+                        <td>Lance deux claques en cône, infligeant des dégâts et ralentissant les ennemis touchés.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Torgnoles <br></br>Amélioration au niveau 10 </td>
+                        <td><img src="../img/torgnoles.webp" alt=""></td>
+                        <td>Envoie une série de 3 à 5 claques en cône, infligeant des dégâts et ralentissant les ennemis touchés.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 6: Eclats Magique <br></br>Amélioration au niveau 10 </td>
+                        <td><img src="../img/eclat_magique.webp" alt=""></td>
+                        <td>Émet un puissant éclat lumineux en cône, infligeant deux fois des dégâts aux ennemis touchés.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="branching-table bottom">
+            <table class="table base-attack">
+                <thead>
+                    <tr>
+                        <th colspan="3">Attaque spéciale 2</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Boul'Armure</td>
+                        <td><img src="../img/boul_armure_grodoudou.webp" alt=""></td>
+                        <td>Fait une courte roulade qui confère un bouclier.<br><br> Les ennemis touchés sont repoussés.<br><br> Toucher un mur pendant la roulade fait rebondir le lanceur et réinitialise le délai de récupération de Écras’Face/Torgnoles/Éclat Magique.</td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <div class="arrows">
+                <img class="branching-arrow" src="../img/arrow_left.png" alt="">
+                <img class="branching-arrow" src="../img/arrow_right.png" alt="">
+            </div>
+        
+            <table class="table amelioration-1">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 4: Roulade <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/roulade.webp" alt=""></td>
+                        <td>Fait une courte roulade qui confère un bouclier.<br><br> Les ennemis touchés subissent des dégâts et sont repoussés.<br><br> Toucher un mur pendant la roulade fait rebondir le lanceur et réinitialise le délai de récupération de Écras’Face/Torgnoles/Éclat Magique.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table amelioration-2">
+                <thead>
+                    <tr>
+                        <th>Attaque</th>
+                        <th>Icône</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Niveau 4: Berceuse <br></br>Amélioration au niveau 12 </td>
+                        <td><img src="../img/berceuse.webp" alt=""></td>
+                        <td>Le lanceur chante, créant une zone autour de lui et augmentant sa vitesse de déplacement.<br><br> Les ennemis dans la zone sont ralentis.<br><br> Les ennemis qui restent dans la zone s’endorment et leur Défense et Défense Spé sont diminuées.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th colspan="3">Capacité Unite</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>Attaque</th>
+                    <th>Icône</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Recital Etoilé <br></br>Débloquage au niveau 8</td>
+                    <td><img src="../img/recital_etoile.webp" alt=""></td>
+                    <td>Chante un récital, donnant au lanceur et à tous les alliés proche un énorme bouclier.<br><br> Retire les effets de statut de tous les alliés proches et les immunise aux effets de contrôle.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
